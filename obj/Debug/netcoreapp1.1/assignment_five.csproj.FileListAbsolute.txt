@@ -1,0 +1,8 @@
+C:\Users\checheb\Desktop\CWEB1111\Assignment_5\bin\Debug\netcoreapp1.1\assignment_five.deps.json
+C:\Users\checheb\Desktop\CWEB1111\Assignment_5\bin\Debug\netcoreapp1.1\assignment_five.runtimeconfig.json
+C:\Users\checheb\Desktop\CWEB1111\Assignment_5\bin\Debug\netcoreapp1.1\assignment_five.runtimeconfig.dev.json
+C:\Users\checheb\Desktop\CWEB1111\Assignment_5\bin\Debug\netcoreapp1.1\assignment_five.dll
+C:\Users\checheb\Desktop\CWEB1111\Assignment_5\bin\Debug\netcoreapp1.1\assignment_five.pdb
+C:\Users\checheb\Desktop\CWEB1111\Assignment_5\obj\Debug\netcoreapp1.1\assignment_five.AssemblyInfo.cs
+C:\Users\checheb\Desktop\CWEB1111\Assignment_5\obj\Debug\netcoreapp1.1\assignment_five.dll
+C:\Users\checheb\Desktop\CWEB1111\Assignment_5\obj\Debug\netcoreapp1.1\assignment_five.pdb

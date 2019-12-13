@@ -7042,16 +7042,16 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\checheb\\Desktop\\CWEB1111\\Assignment_5\\assignment_five.csproj",
+      "projectUniqueName": "C:\\Users\\checheb\\Desktop\\CWEB1111\\Assignment_5\\assignment_five.csproj",
       "projectName": "assignment_five",
-      "projectPath": "c:\\Users\\checheb\\Desktop\\CWEB1111\\Assignment_5\\assignment_five.csproj",
-      "outputPath": "c:\\Users\\checheb\\Desktop\\CWEB1111\\Assignment_5\\obj\\",
+      "projectPath": "C:\\Users\\checheb\\Desktop\\CWEB1111\\Assignment_5\\assignment_five.csproj",
+      "outputPath": "C:\\Users\\checheb\\Desktop\\CWEB1111\\Assignment_5\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "files": {
-        "lib/netcoreapp1.1/assignment_five.dll": "c:\\Users\\checheb\\Desktop\\CWEB1111\\Assignment_5\\bin\\placeholder\\netcoreapp1.1\\assignment_five.dll"
+        "lib/netcoreapp1.1/assignment_five.dll": "C:\\Users\\checheb\\Desktop\\CWEB1111\\Assignment_5\\bin\\placeholder\\netcoreapp1.1\\assignment_five.dll"
       },
       "frameworks": {
         "netcoreapp1.1": {
