@@ -40,11 +40,13 @@ namespace assignment_five
             //
             estimate[x].NumDays= numDays;
 
-          
-
-
           }
-        }    
+
+          for(var x=0; x < estimate.Length; x++){
+            Console.WriteLine(estimate[x].ToString());
+          }
+
+        }//end of main method bracket    
     }
     //Create a class called Estimate
     class Estimate
@@ -52,19 +54,35 @@ namespace assignment_five
       public string DogOwner{get; set;}
       public string DogName{get; set;}
       public double WeigtOfDog{get; set;}
+
+      public double EstimateCost{ get; set;}
       public int NumDays{get; set;}
 
       public string ServiceCode {get; set;}
 
-      public override String ToString(){
-            return String.Format($"Hi {DogOwner} Your Dog name is: {DogName} \n {WeigtOfDog}  Number of days is: {NumDays}");
+     private double DAILY_RATE = 75.00, A_RATE = 169.00, C_RATE = 112.00;
+    
 
+      public override String ToString(){
+            return String.Format($"Hi {DogOwner} Your Dog name is: {DogName} \n The weight is: {WeigtOfDog}  and the number of days is: {NumDays} ");
+      }
       //working method to determine cost based on code - review first class example on Student object
-      public void determineCost(){
-          if(ServiceCode == "A" || ServiceCode == "C")){
-                //
-          
-                Console.WriteLine("Sorry, invalid input. Make sure to enter A, N or C.");
+      private void determineCost(){
+          if(ServiceCode == "A"){
+              EstimateCost = A_RATE * NumDays;
+
+              else if(ServiceCode == "C"){
+                EstimateCost = C_RATE * NumDays;
+
+                else(ServiceCode == "N"){
+                   EstimateCost = C_RATE * NumDays; 
+                }
+              }
+
+            
+
+          }
+                
       }
     }
 }
